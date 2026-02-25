@@ -1,3 +1,12 @@
+## Visitor Pattern in C++:
+This project demonstrates the implementation of the Visitor Design Pattern in C++ using:
+    1.Abstract classes (interfaces)
+    2.Virtual functions
+    3.Runtime polymorphism
+    4.Separate compilation (.h and .cpp files)
+    5.Multiple concrete elements and visitors
+
+
 # A visitor pattern is a software design pattern that separates the algorithm from the object structure . 
 # This helps in adding new operations to existing object structures without modifying the structures. 
 

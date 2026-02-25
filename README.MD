@@ -7,8 +7,8 @@ This project demonstrates the implementation of the Visitor Design Pattern in C+
     5.Multiple concrete elements and visitors
 
 
-# A visitor pattern is a software design pattern that separates the algorithm from the object structure . 
-# This helps in adding new operations to existing object structures without modifying the structures. 
+ A visitor pattern is a software design pattern that separates the algorithm from the object structure . 
+ This helps in adding new operations to existing object structures without modifying the structures. 
 
 The core of this pattern is the Visitor interface. This interface defines a visit operation for each
  type of ConcreteElement in the object structure. Meanwhile, the ConcreteVisitor implements the operations defined in the Visitor interface. The concrete visitor will store local state, typically as it traverses the set of elements. The element interface simply defines an accept method to allow the visitor to run some action over that element — the ConcreteElement will implement this accept method.
